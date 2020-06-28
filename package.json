@@ -1,5 +1,5 @@
 {
-  "name": "elitecorner-tech",
+  "name": "@elitecorner/components",
   "version": "0.0.1",
   "description": "Elite Corner Website Components",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/elitecorner-tech/elitecorner-tech.js",
+  "unpkg": "dist/elitecorner-components/elitecorner-components.js",
   "files": [
     "dist/",
     "loader/"

@@ -1,11 +1,11 @@
 import { Component, h, Prop } from "@stencil/core";
 
 @Component({
-  tag: "ec-tech",
-  styleUrl: "ec-tech.css",
+  tag: "ec-banner",
+  styleUrl: "ec-banner.css",
   shadow: true,
 })
-export class EliteCornerTech {
+export class EliteCornerBanner {
   @Prop() article: string = "Elite Corner";
   @Prop() angular: string;
   @Prop() animation: string;

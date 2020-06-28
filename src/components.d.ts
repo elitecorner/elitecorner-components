@@ -6,7 +6,7 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface EcTech {
+    interface EcBanner {
         "angular": string;
         "animation": string;
         "article": string;
@@ -23,18 +23,18 @@ export namespace Components {
     }
 }
 declare global {
-    interface HTMLEcTechElement extends Components.EcTech, HTMLStencilElement {
+    interface HTMLEcBannerElement extends Components.EcBanner, HTMLStencilElement {
     }
-    var HTMLEcTechElement: {
-        prototype: HTMLEcTechElement;
-        new (): HTMLEcTechElement;
+    var HTMLEcBannerElement: {
+        prototype: HTMLEcBannerElement;
+        new (): HTMLEcBannerElement;
     };
     interface HTMLElementTagNameMap {
-        "ec-tech": HTMLEcTechElement;
+        "ec-banner": HTMLEcBannerElement;
     }
 }
 declare namespace LocalJSX {
-    interface EcTech {
+    interface EcBanner {
         "angular"?: string;
         "animation"?: string;
         "article"?: string;
@@ -50,14 +50,14 @@ declare namespace LocalJSX {
         "universal"?: string;
     }
     interface IntrinsicElements {
-        "ec-tech": EcTech;
+        "ec-banner": EcBanner;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "ec-tech": LocalJSX.EcTech & JSXBase.HTMLAttributes<HTMLEcTechElement>;
+            "ec-banner": LocalJSX.EcBanner & JSXBase.HTMLAttributes<HTMLEcBannerElement>;
         }
     }
 }
